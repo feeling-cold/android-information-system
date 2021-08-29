@@ -6,17 +6,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
 
-public class MainActivity3 extends AppCompatActivity{
+public class MainActivity6 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
-    }
-
-    @Override
+        setContentView(R.layout.activity_main6);
+    } @Override
     protected void onStart() {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
@@ -25,6 +22,7 @@ public class MainActivity3 extends AppCompatActivity{
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
         switch(item.getItemId())
         {
             case android.R.id.home:

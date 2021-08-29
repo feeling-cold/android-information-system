@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity3">
+    tools:context=".MainActivity5">
 
     <EditText
         android:id="@+id/t2"
@@ -138,7 +138,7 @@
         android:layout_marginRight="32dp"
         android:layout_marginBottom="9dp"
         android:gravity="center"
-        android:text="math:"
+        android:text="major:"
         app:layout_constraintBottom_toTopOf="@+id/textView6"
         app:layout_constraintEnd_toStartOf="@+id/t4"
         app:layout_constraintStart_toStartOf="parent"
@@ -154,7 +154,7 @@
         android:layout_marginRight="32dp"
         android:layout_marginBottom="7dp"
         android:gravity="center"
-        android:text="java:"
+        android:text="school:"
         app:layout_constraintBottom_toTopOf="@+id/textView7"
         app:layout_constraintEnd_toStartOf="@+id/editText"
         app:layout_constraintStart_toStartOf="parent"
@@ -170,7 +170,7 @@
         android:layout_marginRight="32dp"
         android:layout_marginBottom="11dp"
         android:gravity="center"
-        android:text="python:"
+        android:text="admission:"
         app:layout_constraintBottom_toTopOf="@+id/textView5"
         app:layout_constraintEnd_toStartOf="@+id/t5"
         app:layout_constraintStart_toStartOf="parent"
@@ -198,7 +198,7 @@
         android:layout_marginRight="32dp"
         android:layout_marginBottom="44dp"
         android:gravity="center"
-        android:text="db:"
+        android:text="id:"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toStartOf="@+id/editText3"
         app:layout_constraintStart_toStartOf="parent"
@@ -235,5 +235,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/editText3" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
